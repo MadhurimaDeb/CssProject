@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  font-size: 6em;
+  font-style: normal;
+  margin: 50px auto 0 auto;
+  font-family: 'Ephesis', cursive;
+  color: #66BFBF;
+}
+h2{
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  color:  #11999E;
+}
+text-align{
+  color: #40514E;
+}
+hr{
+  border-style:none;
+  border-top-style: dotted;
+  width: 3%;
+  border-color: #EAF6F6;
+  border-width: 5px;
+}
+.profile{
+  width: 50%;
+  position: relative;
+text-align: center;
+line-height: 2;
+  margin: 100px auto 100px auto;
+}
+.skill-row-teacher{
+  width: 50%;
+  position: relative;
+text-align: right;
+line-height: 2;
+  margin: 100px auto 100px auto;
+}
+.skill-row-video{
+  width: 50%;
+  position: relative;
+  text-align: left;
+line-height: 2;
+  margin: 100px auto 100px auto;
+}
+.visibility{
+  visibility: collapse;
+  height: 0;
+  width: 0;
+}
+.part1 {
+  background-color: #EAF6F6;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+.Bottom-cloud{
+  position: absolute;
+}
+.Top-cloud {
+  position: absolute;
+  right: 400px;
+}
+.Profile_Photo{
+  border-radius: 100%;
+  width: 25%;
+}
+.skill-img-teacher{
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img-video{
+  width: 25%;
+  border-radius: 100%;
+  float: right;
+  margin-right: 30px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px 0;
+  position: relative;
+  margin-bottom: 0;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+  margin: 10px 20px;
+    font-family: 'Merriweather', serif;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.Copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.BUTTON_RWP {
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   color: #FFFFFF;
+     font-family: 'Merriweather', serif;
+   font-size: 20px;
+   font-weight: normal;
+   padding: 5px;
+   margin-bottom: 40px;
+   background-color: #11999E;
+   border: solid #11999E 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_RWP:hover {
+   background: #EFFF00;
+   border: inset #FFFFFF 1px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   text-decoration: none;
+}
